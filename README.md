@@ -56,6 +56,7 @@ Click Load (Web) → Open camera’s HTTP/HTTPS interface.
 Click Start RTSP → View live video stream.
 
 Click Snapshot → Save a frame in the snapshots folder.
+![Live Camera Streaming](image-2.png)
 
 Limitations to Know ⚠️
 
