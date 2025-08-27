@@ -1,48 +1,55 @@
-# Camera Tester (IE Tab Alternative)
+Camera Tester: The Ultimate IE Tab Alternative
+Are you looking for a modern, reliable, and free IE Tab alternative for managing your IP cameras? Look no further. Camera Tester is a cross-platform desktop application designed to replace outdated browser plugins and legacy solutions.
 
-A cross-platform desktop app for testing IP cameras using Python and Tkinter. Provides an embedded browser (via tkinterweb) and an RTSP video player (via OpenCV) for easy camera access and snapshot capture.
+Built with Python and Tkinter, this tool provides a seamless experience for viewing and testing IP cameras on both Windows and Linux, without the need for ActiveX controls or other browser dependencies.
 
-## Features
-- URL bar with basic-auth helpers for HTTP(S) camera pages
-- Embedded browser using tkinterweb (fallback-friendly)
-- RTSP viewer using OpenCV on a Tkinter canvas (threaded)
-- Start / Stop / Refresh controls
-- Snapshot capture to `./snapshots` with timestamped filenames
-- Cross-platform (Windows/Linux). No admin rights required
+Why Camera Tester is the Best IE Tab Alternative 🖥️
+Cross-Platform Compatibility: Unlike IE Tab which is Windows-only, Camera Tester works flawlessly on both Windows and Linux, providing a consistent toolset for all your devices.
 
-## Limitations
-- Does **not** support legacy IE ActiveX plugins
-- tkinterweb is a simple HTML renderer; modern JS-heavy pages may not fully work
-- For full Chromium support, consider a variant using cefpython3 (heavier)
+No Browser Lock-in: This is a standalone application. You don't need a specific browser or an extension. It's a true, independent ActiveX alternative for camera management.
 
-## Installation
+Dual-Functionality:
 
-1. Install Python 3.10+ (Windows/Linux)
-2. Install dependencies:
-   ```sh
-   pip install opencv-python pillow tkinterweb requests
-   ```
-3. Run the app:
-   ```sh
-   python camera_tester.py
-   ```
+Embedded Browser: Quickly access a camera's web configuration page. Perfect for simple HTTP/HTTPS interfaces that required legacy browser support.
 
-## Usage
-- Enter the camera IP, username, and password
-- Use "Load (Web)" to view HTTP/HTTPS camera pages
-- Use "Start RTSP" to view RTSP streams
-- Use "Snapshot" to save a frame to the `snapshots` folder
-- Use "Open in System Browser" for full browser support
-![alt text](image.png)
+Dedicated RTSP Player: View live video streams using a high-performance RTSP viewer powered by OpenCV. It's fast, efficient, and built for purpose.
 
-## File Structure
-- `camera_tester.py` — Main application
-- `snapshots/` — Saved images
-- `build/` — PyInstaller build output (if used)
+Lightweight & Portable: The application is lean and requires no administrative rights to run. It's the perfect tool for technicians and IT professionals.
 
-## Tested On
-- Windows 11
-- Ubuntu 22.04
+Features That Make a Difference 🚀
+URL Bar with Basic-Auth Helpers: Quickly connect to cameras with built-in support for username and password authentication.
 
-## License
-MIT License
+One-Click Snapshot Capture: Save high-quality, timestamped snapshots of your camera feed with a single button click.
+
+"Open in System Browser" Feature: For complex, JS-heavy pages, you can instantly open the camera URL in your default system browser (e.g., Chrome, Firefox).
+
+Getting Started: Installation & Usage Guide
+Installation
+Ensure you have Python 3.10+ installed on your system.
+
+Install the required libraries via pip:
+
+Bash
+
+pip install opencv-python pillow tkinterweb requests
+Run the application:
+
+Bash
+
+python camera_tester.py
+Usage
+Enter the camera IP, username, and password in the top bar.
+
+Use "Load (Web)" to view the HTTP/HTTPS configuration page.
+
+Use "Start RTSP" to begin streaming the live video.
+
+Click "Snapshot" to save a frame to the snapshots folder.
+![Live Camera Streaming](image-1.png)
+Limitations
+Does not support legacy IE ActiveX plugins.
+
+The embedded browser is a simple HTML renderer; modern, JS-heavy pages may not work fully.
+
+License
+This project is licensed under the MIT License.
