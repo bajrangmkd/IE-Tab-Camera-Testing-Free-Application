@@ -1,26 +1,23 @@
 
-      <h1 class="title">Camera Tester: The Ultimate Free IE Tab Alternative for IP Camera Management</h1>
-      <p class="subtitle">A modern, cross‑platform desktop app to view and test IP cameras without Internet Explorer, IE Tab, or ActiveX dependencies.</p>
+      <h1>Camera Tester: The Ultimate Free IE Tab Alternative for IP Camera Management</h1>
+      <p>A modern, cross‑platform desktop app to view and test IP cameras without Internet Explorer, IE Tab, or ActiveX dependencies.</p>
      
-        <span class="badge">Cross‑Platform (Windows & Linux)</span>
-        <span class="badge">Python + Tkinter</span>
-        <span class="badge">Embedded Browser</span>
-        <span class="badge">RTSP Player (OpenCV)</span>
-        <span class="badge">MIT License</span>
+        <span>Cross‑Platform (Windows & Linux)</span>
+        <span>Python + Tkinter</span>
+        <span>Embedded Browser</span>
+        <span>RTSP Player (OpenCV)</span>
+        <span>MIT License</span>
       
-  </header>
-
-  <nav class="toc">
-    <div class="container">
-      <a href="#why">Why Camera Tester</a>
-      <a href="#features">Key Features</a>
-      <a href="#install">Installation</a>
-      <a href="#usage">Usage</a>
-      <a href="#limitations">Limitations</a>
-      <a href="#license">License</a>
-      <a href="#seo">SEO Keywords</a>
-    </div>
-  </nav>
+  
+      <a>Why Camera Tester</a>
+      <a>Key Features</a>
+      <a>Installation</a>
+      <a>Usage</a>
+      <a>Limitations</a>
+      <a>License</a>
+      <a>SEO Keywords</a>
+    
+  
 
   <main class="container">
     <section id="intro">
