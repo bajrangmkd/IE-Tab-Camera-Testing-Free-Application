@@ -1,118 +1,82 @@
+Camera Tester: The Ultimate Free IE Tab Alternative for IP Camera Management
 
-      <h1>Camera Tester: The Ultimate Free IE Tab Alternative for IP Camera Management</h1>
-      <p>A modern, cross‑platform desktop app to view and test IP cameras without Internet Explorer, IE Tab, or ActiveX dependencies.</p>
-     
-        <span>Cross‑Platform (Windows & Linux)</span>
-        <span>Python + Tkinter</span>
-        <span>Embedded Browser</span>
-        <span>RTSP Player (OpenCV)</span>
-        <span>MIT License</span>
-      
-  
-      <a>Why Camera Tester</a>
-      <a>Key Features</a>
-      <a>Installation</a>
-      <a>Usage</a>
-      <a>Limitations</a>
-      <a>License</a>
-      <a>SEO Keywords</a>
-    
-  
+Are you still relying on outdated IE Tab plugins or legacy ActiveX controls to manage your IP cameras? It’s time to move forward. Camera Tester is a modern, free, and cross-platform desktop application that serves as the perfect IE Tab alternative—without the hassle of browser dependencies.
 
-  <main class="container">
-    <section id="intro">
-      <div class="card">
-        <p>Still using outdated <strong>IE Tab</strong> plugins or legacy <strong>ActiveX</strong> controls for IP camera management? Meet <strong>Camera Tester</strong> — a free, modern, and cross‑platform desktop application that replaces legacy browser solutions with a clean, reliable experience.</p>
-        <p>Built with <strong>Python</strong> and <strong>Tkinter</strong>, Camera Tester works on <strong>Windows</strong> and <strong>Linux</strong>, making it ideal for IT professionals, CCTV technicians, and system integrators.</p>
-        <p><a class="cta" href="#install">Get Started</a></p>
-      </div>
-    </section>
+Built with Python and Tkinter, Camera Tester offers a seamless way to test and view IP cameras on both Windows and Linux, making it the go-to solution for IT professionals, CCTV technicians, and system integrators.
 
-    <section id="why">
-      <h2>Why Choose Camera Tester Over IE Tab?</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <h3>✅ Cross‑Platform Compatibility</h3>
-          <p>Unlike IE Tab (Windows‑only), Camera Tester runs on <strong>Windows and Linux</strong> with consistent performance.</p>
-        </div>
-        <div class="card">
-          <h3>✅ No Browser Lock‑In</h3>
-          <p>A true <strong>standalone desktop app</strong>. No extensions, no IE mode, and no ActiveX — just launch and go.</p>
-        </div>
-        
-          <h3>✅ Dual‑Functionality</h3>
-          <ul>
-            <li><strong>Embedded Browser:</strong> Quickly access camera web UIs (HTTP/HTTPS).</li>
-            <li><strong>Dedicated RTSP Viewer:</strong> High‑performance live streaming via OpenCV.</li>
-          </ul>
-        
-        
-          <h3>✅ Lightweight & Portable</h3>
-          <p>Lean footprint and <strong>no admin rights</strong> required. Perfect for field technicians.</p>
-        
-      
-    </section>
+Why Choose Camera Tester Over IE Tab?
+✅ Cross-Platform Compatibility
 
-    <section id="features">
-      <h2>Key Features That Make a Difference 🚀</h2>
-      <ul>
-        <li><strong>URL Bar with Basic‑Auth Helpers</strong>: Enter IP, username, and password seamlessly.</li>
-        <li><strong>One‑Click Snapshot Capture</strong>: Save high‑quality, timestamped snapshots instantly.</li>
-        <li><strong>Open in System Browser</strong>: For JS‑heavy pages, launch in your default browser (Chrome, Firefox, Edge).</li>
-        <li><strong>Simple, Focused UI</strong>: No bloat — only the tools you need for camera management.</li>
-      </ul>
-    </section>
+Unlike IE Tab (which only works on Windows with Internet Explorer or Chrome extensions), Camera Tester runs flawlessly on Windows and Linux, ensuring consistent performance across devices.
 
-    <section id="install">
-      <h2>Installation</h2>
-      <ol>
-        <li>Install <strong>Python 3.10+</strong>.</li>
-        <li>Install required libraries:</li>
-      </ol>
-      <pre><code class="language-bash">pip install opencv-python pillow tkinterweb requests</code></pre>
-      <ol start="3">
-        <li>Run the application:</li>
-      </ol>
-      <pre><code class="language-bash">python camera_tester.py</code></pre>
-    </section>
+✅ No Browser Lock-In
 
-    <section id="usage">
-      <h2>Usage</h2>
-      <ul>
-        <li>Enter the <strong>camera IP, username, and password</strong> in the top bar.</li>
-        <li>Click <span class="kbd">Load (Web)</span> to open the camera’s HTTP/HTTPS interface.</li>
-        <li>Click <span class="kbd">Start RTSP</span> to begin streaming the live video.</li>
-        <li>Click <span class="kbd">Snapshot</span> to save a frame to the <em>snapshots</em> folder.</li>
-      </ul>
-    </section>
+Forget about browser extensions or legacy dependencies. Camera Tester is a standalone desktop app—a true ActiveX-free solution for IP camera management.
 
-    <section id="limitations">
-      <h2>Limitations</h2>
-      <ul>
-        <li>Does not support legacy <strong>IE ActiveX</strong> plugins.</li>
-        <li>The embedded browser is lightweight; <strong>modern JS‑heavy pages</strong> may require opening in your system browser.</li>
-      </ul>
-    </section>
+✅ Dual-Functionality: Browser + RTSP Player
 
-    <section id="license">
-      <h2>License</h2>
-      <p>Camera Tester is free and open‑source software released under the <strong>MIT License</strong>.</p>
-    </section>
+Embedded Browser: Quickly access a camera’s web interface (HTTP/HTTPS). Ideal for configuration pages that required legacy browser support.
 
-    <section id="seo">
-      <h2>SEO Keywords (for reference)</h2>
-      <p><em>IE Tab alternative, ActiveX alternative, IP camera management tool, RTSP viewer for Windows, RTSP viewer for Linux, free IP camera software, Python Tkinter camera app</em></p>
-    </section>
-  </main>
+Dedicated RTSP Viewer: Stream live video feeds directly with OpenCV for fast, high-performance viewing.
 
-  <footer>
-    <div class="container">
-      <p>© <span id="year"></span> Camera Tester. Built with Python & Tkinter.</p>
-    </div>
-  </footer>
+✅ Lightweight & Portable
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+Camera Tester is small, fast, and requires no admin rights to run. Perfect for technicians on the move.
+
+Key Features That Make Camera Tester the Best IE Tab Alternative 🚀
+
+Built-in URL Bar with Auth Support – Enter IP, username, and password seamlessly.
+
+One-Click Snapshot Capture – Save timestamped snapshots instantly.
+
+“Open in System Browser” Option – For JS-heavy pages, launch directly in Chrome, Firefox, or Edge.
+
+Simple, User-Friendly Interface – No bloated menus—just the essentials for camera management.
+
+Getting Started: Installation & Usage
+🔧 Installation
+
+Make sure you have Python 3.10+ installed.
+
+Install required libraries:
+
+pip install opencv-python pillow tkinterweb requests
+
+
+Run the application:
+
+python camera_tester.py
+
+📌 Usage Guide
+
+Enter Camera IP + Credentials in the top bar.
+
+Click Load (Web) → Open camera’s HTTP/HTTPS interface.
+
+Click Start RTSP → View live video stream.
+
+Click Snapshot → Save a frame in the snapshots folder.
+
+Limitations to Know ⚠️
+
+Legacy ActiveX-only cameras are not supported.
+
+The embedded browser is lightweight—modern JS-heavy pages may require the “Open in System Browser” option.
+
+License & Availability
+
+Camera Tester is free and open-source, released under the MIT License.
+
+👉 Whether you’re an IT professional, CCTV technician, or network engineer, Camera Tester is your best IE Tab alternative for modern IP camera management.
+
+🔎 SEO Keywords integrated:
+
+IE Tab alternative
+
+ActiveX alternative
+
+IP camera management tool
+
+RTSP viewer for Windows/Linux
+
+Free IP camera software
